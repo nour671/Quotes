@@ -1,0 +1,51 @@
+
+
+
+
+body {
+   
+}
+
+.container-fluid {
+    background-image: url(../images/bg-quote.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+
+}
+.container {
+    color: #fff;
+
+}
+
+.container .content p {
+    font-size: 40px;
+    font-family: "Anton", sans-serif;
+    
+}
+.container .content h2 {
+    font-family: "Dancing Script", cursive;
+
+}
+.container .btn-container {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.container .btns .btn{
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-family: "Anton", sans-serif;
+    letter-spacing: 0.1px;
+    border-radius: 10px;
+    
+
+}
+.container .btns .btn:hover{
+    color: #000;
+    background-color: transparent;
+
+}
